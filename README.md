@@ -25,7 +25,8 @@ The following tools and technologies are part of my coursework and project exper
 | Programming | Python, Java, VHDL |
 | Web development | Django, HTML, CSS, JavaScript |
 | Databases | MySQL |
-| Embedded systems & electronics | Arduino, PIR sensor, HC-SR04 ultrasonic sensor |
+| Embedded systems & electronics | Arduino, ESP32, PIR sensor, HC-SR04 ultrasonic sensor, DHT11, RFID RC522, servo motors |
+| IoT protocols & platforms | MQTT, EMQX Cloud |
 | Simulation & supervision | ModelSim, LabVIEW |
 | Development tools | Git, GitHub, Visual Studio Code, Eclipse, Maven |
 | Mapping | Leaflet |
@@ -36,10 +37,16 @@ The following tools and technologies are part of my coursework and project exper
 
 ## Selected Projects
 
-### 1. Smart Home — Motion-Based Lighting
-An academic prototype exploring automatic lighting control using a PIR motion sensor and an LED.
+### 1. Smart Home — IoT Home Automation Prototype
+A team project for the *IoT Systems Engineering and Design* course: a connected house with three ESP32 nodes (entrance, living room, kitchen) communicating over MQTT with a cloud broker (EMQX Cloud), built as a 47 × 28 cm cardboard prototype.
 
-**Focus:** motion detection, sensor behaviour, automation logic, and troubleshooting in a small-scale physical prototype.
+<img src="projects/smart-home/media/prototype-demo.gif" alt="Smart Home prototype walkthrough" width="220">
+
+**Stack:** ESP32 (C++ / PlatformIO), MQTT over TLS, RC522 RFID reader, SG90 servo motors, PIR motion sensor, HC-SR04 ultrasonic sensor, DHT11, LEDs.
+
+**Focus:** IoT architecture, device placement and roles, MQTT communication, access control, and automation.
+
+➡️ **[Project page: ESP32 firmware, wiring, MQTT topics, photos and video](projects/smart-home/README.md)**
 
 ### 2. Water Tank Monitoring & False Data Injection
 An academic project exploring water-level monitoring and the impact of manipulated sensor data on an automated system.

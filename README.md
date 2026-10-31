@@ -23,7 +23,7 @@ The following tools and technologies are part of my coursework and project exper
 | Area | Tools and technologies |
 | --- | --- |
 | Programming | Python, Java, C (AVR), C++ (ESP32), VHDL |
-| Web development | Django, Flask, HTML, CSS, JavaScript |
+| Web development | Django, Flask, HTML, CSS, Tailwind CSS, JavaScript, Three.js |
 | Databases | MySQL, SQLite |
 | Embedded systems & electronics | Arduino, ATmega328P, ESP32, L298N, PIR sensor, HC-SR04 ultrasonic sensor, DHT11, RFID RC522, servo motors |
 | IoT protocols & platforms | MQTT, EMQX Cloud |
@@ -47,6 +47,7 @@ The following tools and technologies are part of my coursework and project exper
 | [Le Thermostat d'Alerte](https://github.com/bradley1101/thermostat-alerte-labview) | Supervision | LabVIEW, Python |
 | [Medipass](https://github.com/bradley1101/medipass) | Software engineering | Java, DAO pattern, JDBC/MySQL, JUnit |
 | [IFRI Comotorage](https://github.com/bradley1101/ifri-comotorage) | Web application | Python, Django, MySQL, Leaflet |
+| [TONAFA — e-commerce website](https://github.com/bradley1101/Site-TONAFA) | Freelance web (live: [tonafaofficial.com](https://tonafaofficial.com)) | HTML, Tailwind CSS, JavaScript, Three.js |
 
 ### 1. Smart Home — IoT Home Automation Prototype
 A team project for the *IoT Systems Engineering and Design* course: a connected house with three ESP32 nodes (entrance, living room, kitchen) communicating over MQTT with a cloud broker (EMQX Cloud), built as a 47 × 28 cm cardboard prototype.
@@ -89,6 +90,13 @@ A digital medical pass (patients, doctors, consultations) structured around the 
 A Django platform connecting drivers and passengers of the IFRI community: rides placed on a Leaflet map, search, booking with driver approval, in-app messaging, notifications, mutual reviews and a dashboard. Runs on MySQL or SQLite, 32 automated tests.
 
 ➡️ **[bradley1101/ifri-comotorage](https://github.com/bradley1101/ifri-comotorage)**
+
+### 9. TONAFA — E-commerce Website (freelance, live)
+Website for TONAFA, a Beninese ready-to-wear brand, built as a freelance project and during my internship there. It has a shop with filters, product pages, a cart with size selection and WhatsApp checkout, and brand animations (monogram loader, page transitions, patterns painted on scroll, 3D linen with Three.js). Deployed and live at **[tonafaofficial.com](https://tonafaofficial.com)**.
+
+<img src="https://raw.githubusercontent.com/bradley1101/Site-TONAFA/main/docs/screenshots/01-accueil.jpg" alt="TONAFA website" width="480">
+
+➡️ **[bradley1101/Site-TONAFA](https://github.com/bradley1101/Site-TONAFA)**
 
 ---
 

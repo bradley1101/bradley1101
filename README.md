@@ -86,7 +86,7 @@ A digital medical pass (patients, doctors, consultations) structured around the 
 ➡️ **[bradley1101/medipass](https://github.com/bradley1101/medipass)**
 
 ### 8. IFRI Comotorage — Carpooling Application
-A web application connecting drivers and passengers: trip publication, available seats, booking and confirmation, user profiles and map-based location selection.
+A Django platform connecting drivers and passengers of the IFRI community: rides placed on a Leaflet map, search, booking with driver approval, in-app messaging, notifications, mutual reviews and a dashboard. Runs on MySQL or SQLite, 32 automated tests.
 
 ➡️ **[bradley1101/ifri-comotorage](https://github.com/bradley1101/ifri-comotorage)**
 
